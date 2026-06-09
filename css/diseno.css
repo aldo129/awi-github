@@ -1,0 +1,5 @@
+.hero h1 { text-shadow: 0 4px 20px rgba(0, 200, 83, 0.35); }
+.partido-card { border-top: 3px solid var(--color-primario); }
+.logo:hover { color: var(--color-secundario); transition: color 0.3s ease; }
+.hero-badge { animation: pulse 2s ease-in-out infinite; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.7} }
